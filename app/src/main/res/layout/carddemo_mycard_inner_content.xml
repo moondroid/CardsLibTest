@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="3dp"
+    android:gravity="center_vertical"
+    android:layout_height="96dp">
+
+    <TextView
+        android:id="@+id/carddemo_myapps_main_inner_title"
+        android:text="Inner Title"
+        style="@style/carddemo_myapps_main_inner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/carddemo_myapps_main_inner_secondaryTitle"
+        android:text="Secondary Inner Title"
+        style="@style/carddemo_myapps_main_inner_secondarytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:id="@+id/carddemo_myapps_main_inner_ratingBar"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
